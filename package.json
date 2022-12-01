@@ -1,0 +1,23 @@
+{
+  "name": "todobackend",
+  "version": "1.0.0",
+  "description": "Backend todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "todobackend"
+  },
+  "author": "oskarlarsson",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/jwt": "^6.5.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.10.2",
+    "fastify-plugin": "^4.3.0",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20"
+  }
+}
